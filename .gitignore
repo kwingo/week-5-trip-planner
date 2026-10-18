@@ -1,0 +1,18 @@
+# Protect API keys and environment variables
+.env
+*.env
+.env.*
+
+# Ignore Python virtual environments
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Mac system files
+.DS_Store
